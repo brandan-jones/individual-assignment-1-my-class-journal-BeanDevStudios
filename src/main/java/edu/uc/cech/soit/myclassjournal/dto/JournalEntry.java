@@ -1,17 +1,19 @@
 package edu.uc.cech.soit.myclassjournal.dto;
 
-public class JournalEntry {
-    public void setNotes(String notes) {
-    }
+import lombok.Getter;
 
-    public String getNotes() {
-        return null;
+@Getter
+public class JournalEntry {
+
+    private String notes;
+    private String date;
+
+    public void setNotes(String notes) {
+        this.notes = notes;
     }
 
     public void setDate(String date) {
+        this.date = date;
     }
 
-    public String getDate() {
-        return null;
-    }
 }
