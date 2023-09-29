@@ -9,8 +9,10 @@ import java.util.List;
  */
 public interface IJournalService {
 
+
     /**
      * Save a new Journal Entry
+     *
      * @param journalEntry the entry to save.
      */
     void save(JournalEntry journalEntry);

@@ -1,9 +1,11 @@
 package edu.uc.cech.soit.myclassjournal.dto;
 
+import lombok.Data;
 import lombok.Getter;
 
 @Getter
-public class JournalEntry {
+public @Data
+class JournalEntry {
 
     private String notes;
     private String date;
